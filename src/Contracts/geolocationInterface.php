@@ -3,5 +3,6 @@ namespace graychen\Contracts;
 
 interface geolocationInterface
 {
-    public function getGeolocation($latitude,$longitude);
+
+    public function getGeolocation();
 }
