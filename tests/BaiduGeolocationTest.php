@@ -1,5 +1,6 @@
 <?php
 namespace graychen\Tests;
+
 use graychen\Geolocation\BaiduGeolocation;
 
 class ContainerTest extends \PHPUnit_Framework_TestCase
@@ -10,8 +11,7 @@ class ContainerTest extends \PHPUnit_Framework_TestCase
     public function testGetGeolocation()
     {
         $geolocation=new BaiduGeolocation();
-        $json_contetn=$geolocation->getGeolocation(33,120);
-        assert($json_contetn,123);
+        $json_contetn=$geolocation->getGeolocation(33, 120);
+        assert($json_contetn, 123);
     }
-
 }
