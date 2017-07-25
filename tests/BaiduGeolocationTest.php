@@ -3,7 +3,7 @@ namespace graychen\Tests;
 
 use graychen\Geolocation\BaiduGeolocation;
 
-class ContainerTest extends \PHPUnit_Framework_TestCase
+class BaiduGeolocationTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Asserts that the container can set and get a simple closure with args.
