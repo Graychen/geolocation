@@ -1,7 +1,7 @@
 <?php
 namespace graychen\Contracts;
 
-interface geolocationInterface
+interface GeolocationInterface
 {
     public function getGeolocation();
 }
