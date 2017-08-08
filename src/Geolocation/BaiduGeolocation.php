@@ -3,7 +3,7 @@ namespace graychen\Geolocation;
 
 use graychen\Contracts\geolocationInterface;
 
-class BaiduGeolocation implements GeolocationInterface
+class BaiduGeolocation implements geolocationInterface
 {
     public $latitude;
 
