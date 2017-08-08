@@ -1,7 +1,7 @@
 <?php
 namespace graychen\Geolocation;
 
-use graychen\Contracts\GeolocationInterface;
+use graychen\contracts\GeolocationInterface;
 
 class BaiduGeolocation implements GeolocationInterface
 {

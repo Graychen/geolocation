@@ -1,5 +1,5 @@
 <?php
-namespace graychen\Contracts;
+namespace graychen\contracts;
 
 interface GeolocationInterface
 {
