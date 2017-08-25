@@ -6,7 +6,6 @@ use graychen\contracts\Geolocation;
 
 class BaiduGeolocation extends Geolocation implements GeolocationInterface
 {
-
     public function getGeolocation()
     {
         $url="http://api.map.baidu.com/geocoder/v2/?location=".$this->latitude.",".$this->longitude."&output=json&pois=1&ak=".$this->ak;

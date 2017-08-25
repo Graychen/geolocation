@@ -9,5 +9,5 @@ abstract class Geolocation
 
     public $ak;
 
-    abstract function getGeolocation();
+    abstract public function getGeolocation();
 }
