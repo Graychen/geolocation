@@ -1,15 +1,11 @@
 <?php
-namespace graychen\Geolocation;
+namespace graychen\geolocation;
 
 use graychen\contracts\GeolocationInterface;
+use graychen\contracts\Geolocation;
 
-class BaiduGeolocation implements GeolocationInterface
+class BaiduGeolocation extends Geolocation implements GeolocationInterface
 {
-    public $latitude;
-
-    public $longitude;
-
-    public $ak;
 
     public function getGeolocation()
     {
