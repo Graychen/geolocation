@@ -1,16 +1,11 @@
 <?php
-namespace graychen\Geolocation;
+namespace graychen\geolocation;
 
 use graychen\contracts\GeolocationInterface;
+use graychen\contracts\Geolocation;
 
-class BaiduGeolocation implements GeolocationInterface
+class BaiduGeolocation extends Geolocation implements GeolocationInterface
 {
-    public $latitude;
-
-    public $longitude;
-
-    public $ak;
-
     public function getGeolocation()
     {
         $url="http://api.map.baidu.com/geocoder/v2/?location=".$this->latitude.",".$this->longitude."&output=json&pois=1&ak=".$this->ak;
