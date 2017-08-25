@@ -1,7 +1,7 @@
 # geolocation
 composer包
 根据经纬度得到地理位置信息，暂时还只有baidu地图api接口
-# this is a library for generate string
+# this is a library for find address by geolocation 
 [![Latest Stable Version](https://poser.pugx.org/graychen/geolocation/version)](https://packagist.org/packages/graychen/geolocation)
 [![Total Downloads](https://poser.pugx.org/graychen/geolocation/downloads)](https://packagist.org/packages/graychen/geolocation)
 [![License](https://poser.pugx.org/graychen/geolocation/license)](https://packagist.org/packages/graychen/geolocation)
